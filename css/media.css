@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* 	CSS Document 
+	author : chris allison
+	date : 10-8-13
+	project : portfolio
+*/
+  
+/* Portrait phone */  
+@media (max-width: 480px) {
+	.yrs {
+		display:none;	
+	}
+}
+  
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.floatfix {
+		float:none;	
+	}
+	.cntrstage .quote {
+		text-align:center;	
+	}
+	.cntrstage img {
+		margin:0 28%;	
+	}	
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.floatfix {
+		float:none;	
+	}	
+	.cntrstage .quote {
+		text-align:center;	
+	}
+	.cntrstage img {
+		margin:0 15%;	
+	}
+}

@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/* 	CSS Document 
+	author : chris allison
+	date : 10-8-13
+	project : portfolio
+*/
+/*==== Static color styles ====*/
+body {
+	background-color:rgba(189, 195, 199,0.8);
+	background-image:url(../assets/bg_img.png);
+	color:rgba(236, 240, 241,1.0); /*clouds*/
+}
+.navbar-inverse .navbar-brand {
+  color:rgba(189, 195, 199,1.0);
+  font-size:1.5em;
+}
+.featurette-heading {
+	color:rgba(44, 62, 80,1.0);	
+}
+
+/*clouds : #ecf0f1 | rgba(236, 240, 241,1.0)*/
+.btn-default:hover, 
+.btn-default:focus, 
+.btn-default:active {
+  background-color:rgba(236, 240, 241,1.0);
+  border-color:rgba(189, 195, 199,1.0); /*silver*/
+  color:rgba(44, 62, 80,1.0); /*midnight*/
+}
+form,
+.sidebar-nav {
+	background-color:rgba(236, 240, 241,1.0);	
+}
+.carousel-caption > p > .btn-primary:hover {
+  background-color:rgba(236, 240, 241,1.0); /*clouds*/
+  border-color:rgba(189, 195, 199,1.0); /*silver*/
+  color:rgba(44, 62, 80,1.0); /*midnight*/
+}
+/*silver : #bdc3c7 | rgba(189, 195, 199,1.0)*/
+.text-muted,
+.navbar-inverse .navbar-nav > li > a {
+  	color: rgba(189, 195, 199,1.0);
+}
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus,
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    background-color:rgba(189, 195, 199,1.0);
+	color:rgba(44, 62, 80,0.9); /*midnight*/
+}
+.featurette-image:hover {
+	-webkit-box-shadow:  0px 0px 3px 3px rgba(236, 240, 241,.85);
+	box-shadow:  0px 0px 3px 3px rgba(236, 240, 241,.85);
+	
+	/*transitions a glow when hovered*/
+	-webkit-transition: box-shadow .5s ease-in;
+	-moz-transition: box-shadow .5s ease-in;
+	-ms-transition: box-shadow .5s ease-in;
+	-o-transition: box-shadow .5s ease-in;
+	transition: box-shadow .5s ease-in;	
+}
+.btn,
+.navbar-brand,
+.interest li a {
+	-moz-transition:background-color 1s, border-color 1s, color 1s;
+    -webkit-transition:background-color 1s, border-color 1s, color 1s;
+    -o-transition:background-color 1s, border-color 1s, color 1s;
+    transition:background-color 1s, border-color 1s, color 1s;		
+}
+.btn:hover,
+.navbar-brand:hover,
+.interest li a:hover {
+	-moz-transition:background-color 1s, border-color 1s, color 1s;
+    -webkit-transition:background-color 1s, border-color 1s, color 1s;
+    -o-transition:background-color 1s, border-color 1s, color 1s;
+    transition:background-color 1s, border-color 1s, color 1s;		
+}
+/*==== End static styles ====*/
+/*==== Custom Font styles ====*/
+@font-face {
+    font-family: QuickSand;
+    src: url(../fonts/Quicksand-Regular.otf);
+}
+.navbar-brand {
+	font-family:QuickSand, Arial, Helvetica, sans-serif;
+}
+/*==== End Custom Font styles ====*/
+/*==== Custom margin styles ====*/
+.navbar-wrapper .navbar {
+	border-radius:0;	
+}
+.marg-fix {
+	margin-top:100px;	
+}
+.hrfix { 
+	margin-top:0;
+}
+.hrrfix {
+	margin:0;	
+}
+.row-fix {
+	margin-top:60px;	
+}
+.floatfix {
+	float:right;
+}
+/*==== End custom margin styles ====*/
+.interest {
+	margin:20px 0;
+	text-align:center;	
+}
+.interest li a {
+	color:#2980b9;	
+}
+.interest li a:hover {
+	color:#34495e;	
+}
+.yrs {
+	float:right;	
+}
+/*==== Home page styles ====*/
+.phases {
+	margin:0 0 50px 0;	
+}
+.phases span,
+.marketing .row span {
+	color:#2ecc71;	
+}
+/*==== off-canvas show btn styles ====*/
+.morebtn {
+	margin-top:-1px;
+	position:relative;
+	z-index:10;	
+}
+#myCarousel {
+	margin-bottom:0;	
+}
+.navbar-inverse .navbar-brand {
+  font-size:1.5em;
+}
+.marketing p,
+.interest p {
+	line-height:1.8em;	
+}
+.btn.design,
+.btn-trigger {
+	margin-top:15px;
+}
+/*==== About page styles ====*/
+.cntrstage {
+	margin-top:50px;
+	padding:3.5%;
+}
+.quote {
+	padding:65px 10px;
+	font-size:2em;	
+	font-style:italic;	
+}
+/*==== Contact page styles ====*/
+form {
+	padding:40px 0;
+	margin-bottom:10px;
+}
+form label{
+	font-weight:200;
+	letter-spacing:1px;
+}
+.label {
+	display:none;
+	display:block\9;	
+}
+.social {
+	margin:20px 0;
+	min-height:120px;
+}
+.social img {
+	margin:10px 8% 10px 0;
+}
+.social.visible-lg img {
+	max-height:100px;
+	min-width:100px;	
+}
+.design-wrapper {
+	padding:50px 0;
+	margin-top:50px;		
+}
+.banner {
+	margin-top:50px;
+}
+.banner.contact img {
+	margin:40px 0;
+	max-height:340px;
+}
+.submit {
+	font-size:1.2em;
+	font-weight:500;
+}
+.con-text {
+	font-size:30px;
+	font-weight:500;
+	color:#fff;
+}
+.chat-bbl {
+	margin:52px 0 !important;	
+}
+.pp_social {
+	display:none;	
+}
+.currentTextHolder {
+	margin-top:-1px !important;	
+}
